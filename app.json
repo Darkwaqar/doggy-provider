@@ -1,0 +1,51 @@
+{
+  "expo": {
+"plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "name": "Doggy-wawky-provider",
+    "slug": "Doggy-wawky-provider",
+    "scheme": "doggy-wawky",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#dc3545"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.abdullah094.Doggywawkyprovider",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleSignIn": {
+          
+          "reservedClientId": "com.googleusercontent.apps.150375276993-1u1shdrqpehopf3m4kijka1on04d1175"
+        }
+      }
+     
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.abdullah094.Doggywawkyprovider"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
